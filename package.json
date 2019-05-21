@@ -1,0 +1,30 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "CRUD with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GloryRojas/CRUD-Nodejs.git"
+  },
+  "author": "Glory Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GloryRojas/CRUD-Nodejs/issues"
+  },
+  "homepage": "https://github.com/GloryRojas/CRUD-Nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.10",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
